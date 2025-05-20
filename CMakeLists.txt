@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 4.0.2)
+project(myproject)
+find_package(raylib REQUIRED)
+add_executable(myprogram main.c)
+target_link_libraries(myprogram raylib)
